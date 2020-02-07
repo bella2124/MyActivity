@@ -1,0 +1,159 @@
+.colorPrimary {
+    color: #fff;
+    background-color: #fe0002;
+    border-color: #fe0002;
+  }
+  .code {
+    font-size: 40px;
+    font-family: 'Droid Serif';
+    margin-bottom: 10px;
+  }
+  .code>.el-input__inner {
+  height: 50px;
+  background-color: #333538;
+  color: white;
+  }
+  .select>.el-input--suffix .el-input__inner {
+    padding-right: 30px;
+    height: 100px;
+    font-size: 35px;
+  }
+  .colorSuccess {
+    color: #fff;
+    background-color: #67c23a;
+    border-color: #67c23a;
+  }
+  .colorDanger {
+    color: #fff;
+    background-color: #f56c6c;
+    border-color: #f56c6c;
+  }
+  .colorInfo {
+    color: #fff;
+    background-color: #fe0002;
+    border-color: #fe0002;
+  }
+  .colorWarning {
+    color: #fff;
+    background-color: #fe0002;
+    border-color: #fe0002;
+  }
+  .submit {
+    color: #000000;
+    background-color: #ffff01;
+    border-color: #ffff01;
+  }
+  .colorPrimary:hover {
+    color: #fff;
+    border-color: #fe0002;
+    background-color: #fe0002a1;
+  }
+  .colorPrimary:active {
+    color: #fff;
+    border-color: #fe0002;
+    background-color: #fe0002a1;
+  }
+  .colorPrimary:focus {
+    color: #fff;
+    border-color: #fe0002;
+    background-color: #fe0002a1;
+  }
+  .submit:hover {
+    color: #fff;
+    border-color: #faff71;
+    background-color: #d8d823;
+  }
+  .submit:active {
+    color: #fff;
+    border-color: #faff71;
+    background-color: #d8d823;
+  }
+  .submit:focus {
+    color: #fff;
+    border-color: #faff71;
+    background-color: #d8d823;
+  }
+  .el-table td, .el-table th {
+    padding: 8px 0;
+    text-align: center;
+  }
+  .el-table__expanded-cell[class*=cell] {
+    padding: 10px 50px;
+    text-align: start;
+  }
+  .is-error .el-input__inner {
+    border-color: #f56c6c;
+  }
+  .is-error .el-textarea__inner {
+    border-color: #f56c6c;
+  }
+  .text-error {
+    color: #f56c6c;
+  }
+  .tile-black {
+    background-color:#2c2c2c;
+  }
+  .tile-black:hover {
+    background-color: #2c2c2c;
+  }
+  .tile-pink {
+    background-color: #ec407a;
+  }
+  .tile-pink:hover {
+    background-color: #d81b60;
+  }
+  .tile-green {
+    background: linear-gradient(to bottom, #41e098 0%, #3bb6b4 100%);
+  }
+  .tile-green:hover {
+    background-color: #3bb6b4;
+  }
+  .tile-teal {
+    background: linear-gradient(to bottom, #ffd941 0%, #ff8d55 100%);
+  }
+  .tile-teal:hover {
+    background-color: #ff8d55;
+  }
+  .tile-purple {
+    background:  linear-gradient(to bottom, #8e24aa 0%, #72879b 100%);
+  }
+  .tile-purple:hover {
+      background-color: #8e24aa;
+  }
+  .tile-indigo {
+    background: linear-gradient(to bottom, #1cdeda 0%, #4999e3 100%);
+  }
+  .tile-indigo:hover {
+      background-color: #4999e3;
+  }
+  .tile-deep-orange {
+    background: linear-gradient(to bottom, #f6519d 0%, #fd717b 100%);
+  }
+  .tile-deep-orange:hover {
+    background-color: #fd717b;
+  }
+  .tile-light-green {
+    background-color: #9ccc65;
+  }
+  .tile-light-green:hover {
+    background-color: #7cb342;
+  }
+  .tile-red {
+    background-color: #e84e40;
+  }
+  .tile-red:hover {
+    background-color: #dd191d;
+  }
+  .tile-amber {
+    background-color: #ffca28;
+  }
+  .tile-amber:hover {
+    background-color: #ffb300;
+  }
+  .tile-yellow {
+    background-color: #ffff01;
+  }
+  .tile-yellow:hover {
+    background-color: #f9f91f;
+  }
+  
