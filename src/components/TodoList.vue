@@ -10,8 +10,8 @@
     />
  <div>
 <el-card>
-    <el-button type="success" size="mini" circle style="float:right"> <p ><b>Completed Tasks:</b> {{todos.filter(todo => { return todo.done === true }).length}}</p></el-button>
-    <el-button type="danger" size="mini" circle style="float:left">  <p ><b> Pending Tasks:</b> {{todos.filter(todo => { return todo.done === false}).length }}</p></el-button>
+    <el-button type="success" size="mini" circle style="float:right" > <p><b>Completed Tasks:</b>{{completeCount}}</p></el-button>
+    <el-button type="danger" size="mini" circle style="float:left">  <p ><b> Pending Tasks:</b> {{pendingCount}}</p></el-button>
 <br><br>
 </el-card>
     </div>
@@ -33,6 +33,14 @@ export default {
   data (){
 return {
 }
+},
+computed: {
+ completeCount () {
+    return this.todos.filter(todo => todo.done === true).length
+  },
+   pendingCount () {
+    return this.todos.filter(todo => todo.done === false).length
+   }
   },
   methods: {
     deleteTodo (todo) {
